@@ -1,0 +1,306 @@
+<div class="container">
+ <link rel="stylesheet" type="text/css" href="index.css">
+  <header class="header">
+    <h1 id="title" class="text-center">Instagram Survey Form</h1>
+    <p id="description" class="description text-center">
+      your opinion matters to improve the app
+    </p>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Age<span class="clue">(optional)</span></label
+      >
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="10"
+        max="99"
+        class="form-control"
+        placeholder="Age"
+      />
+    </div>
+    <div class="form-group">
+      <p>Which option best describes your current role?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select current role</option>
+        <option value="student">Student</option>
+        <option value="job">Full Time Job</option>
+        <option value="preferNo">Prefer not to say</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>Would you recommend instagram to a friend?</p>
+      <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Definitely</label
+      >
+      <label>
+        <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />Maybe</label
+      >
+
+      <label
+        ><input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />Not sure</label
+      >
+    </div>
+
+    <div class="form-group">
+      <p>
+        How many hours you spend on instagram daily?
+      </p>
+      <select id="most-like" name="mostLike" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+        <option value="challenges">1-3 Hours</option>
+        <option value="projects">3-5 Hours</option>
+        <option value="community">5-7 Hours</option>
+        <option value="openSource">7 and more</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>
+        What you don't like about instgram?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label
+        ><input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"
+        />Design</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="back-end-projects"
+          type="checkbox"
+          class="input-checkbox"
+        />Colors</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="data-visualization"
+          type="checkbox"
+          class="input-checkbox"
+        />App logo</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="challenges"
+          type="checkbox"
+          class="input-checkbox"
+        />Fake accounts</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="open-source-community"
+          type="checkbox"
+          class="input-checkbox"
+        />Comments</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="gitter-help-rooms"
+          type="checkbox"
+          class="input-checkbox"
+        />Followers Obsession</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="videos"
+          type="checkbox"
+          class="input-checkbox"
+        />Videos quality</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="city-meetups"
+          type="checkbox"
+          class="input-checkbox"
+        />Editing way</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="wiki"
+          type="checkbox"
+          class="input-checkbox"
+        />Too many hashtags</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="forum"
+          type="checkbox"
+          class="input-checkbox"
+        />It creates a false impression of reality</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="additional-courses"
+          type="checkbox"
+          class="input-checkbox"
+        />Addiction</label
+      >
+    </div>
+ <div class="form-group">
+      <p>
+        What do you like about instgram?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label
+        ><input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"
+        />Design</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="back-end-projects"
+          type="checkbox"
+          class="input-checkbox"
+        />Colors</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="data-visualization"
+          type="checkbox"
+          class="input-checkbox"
+        />App logo</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="challenges"
+          type="checkbox"
+          class="input-checkbox"
+        />Showing your life</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="open-source-community"
+          type="checkbox"
+          class="input-checkbox"
+        />watching other' life</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="gitter-help-rooms"
+          type="checkbox"
+          class="input-checkbox"
+        />Stories</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="videos"
+          type="checkbox"
+          class="input-checkbox"
+        />Communication to others</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="city-meetups"
+          type="checkbox"
+          class="input-checkbox"
+        />The chance to be famous</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="wiki"
+          type="checkbox"
+          class="input-checkbox"
+        />For All Types of Businesses</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="forum"
+          type="checkbox"
+          class="input-checkbox"
+        />Filters</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="additional-courses"
+          type="checkbox"
+          class="input-checkbox"
+        />Censorship</label
+      >
+    </div>
+    <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
